@@ -1,14 +1,9 @@
 # assignment-week01
 
-- Week 1 assignment - try to echo the SpaceX splash page, aiming to end up with something along similar lines to the SpaceY spoof
+- Week 1 assignment
+- Trying to echo the SpaceX splash page, aiming to end up with something along similar lines to the SpaceY spoof
 - https://github.com/siteatis/assignment-week01
 - https://siteatis.github.io/assignment-week01
-
-## TODO GENERAL:
-
-FIRST PUSH - WORK IN PROGRESS
-
-## TODO FOR SUBMISSION:
 
 _Assignment reflection_
 
