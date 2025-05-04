@@ -1,30 +1,29 @@
 # assignment-week01
 
-Week 1 assignment - recreate SpaceX splash page
+- Week 1 assignment - try to echo the SpaceX splash page, aiming to end up with something along similar lines to the SpaceY spoof
+- https://github.com/siteatis/assignment-week01
+- https://siteatis.github.io/assignment-week01
 
 ## TODO GENERAL:
 
 FIRST PUSH - WORK IN PROGRESS
 
-- CSS - get Gemini transcripts then catch up on all workshops!
-- Go through all the Moodle lessons & resources too
-- Once submitted, prep for Week 2
-- Check re: opacity not desired to affect child elements when changing background image opacity (SOLVED) and RGBA (append a 4th value (0 to 1) to an RGB to specify opacity).
-
 ## TODO FOR SUBMISSION:
 
-Reflection
-Please also provide an assignment reflection in your project README.md file.
+_Assignment reflection_
 
-Required 🎯 What requirements did you achieve? 🎯 Were there any requirements or goals that you were unable to achieve? 🎯 If so, what was it that you found difficult about these tasks? Optional 🏹 Feel free to add any other reflections you would like to share about your submission, for example:
+I think I met the basic requirements and the first three stretch goals. My site doesn't look as good as the SpaceY site, or work as well, but I missed a lot of the CSS on Tue/Wed and I've only just caught up in time to make a submission by the deadline, so I've not been able to look in depth at the things I couldn't do. I felt I'd learn more at this point from adding more features that aren't perfect, rather than trying to fix up the ones that do (mostly) work. I didn't attempt the social media icons. I could't figure out how to overcome autoplay blocking (doubtless I could turn it off at my end, but that doesn't help whoever visits the site), so I had to play the background music muted.
 
-Requesting feedback about a specific part of your submission. What useful external sources helped you complete the assignment (e.g Youtube tutorials)? What errors or bugs did you encounter while completing your assignment? How did you solve them? What went really well and what could have gone better?
+I seem to have a lot of very similar style blocks, for example: "header, nav", "nav" and "header nav". It doesn't feel very tidy. It works, but is this really the right way?
 
-References
-List your external resources and support (tutorials, docs, classmates, AI...)
-SO FAR:
-https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-bars
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_alignment/Box_alignment_in_flexbox
-Images gently pilfered from SpaceX and SpaceY by our team here at SpaceRR
-https://nick.af/articles/css-scroll-animation-and-smooth-scrolling-with-scroll-behavior
-https://docs.oracle.com/en/cloud/saas/taleo-enterprise/21d/otcug/r-specialcharactercodes.html
+I compared my code to the SpaceY page at the end and I noticed something odd: In my code, the SpaceRR text is inside my header nav block, but at SpaceY, they're siblings. How would it be on the same line then? I tried moving mine to the same place, and it then displays above the nav bar on the page, as I'd expect. But the SpaceY one doesn't. I scratched my head for ages and couldn't see how. But I've only started this very late as I had to catch up from when I fell behind on Tue/Wed, so I've had to rush through it and maybe I'm missing something obvious, perhaps to do with position properties?
+
+_Useful external sources / references_ (tutorials, docs, classmates, AI...)
+
+- https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-bars
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_alignment/Box_alignment_in_flexbox
+- Images gently pilfered from SpaceX and SpaceY by our team here at SpaceRR
+- https://nick.af/articles/css-scroll-animation-and-smooth-scrolling-with-scroll-behavior
+- https://docs.oracle.com/en/cloud/saas/taleo-enterprise/21d/otcug/r-specialcharactercodes.html
+- pixabay.com (royalty-free audio tracks)
+- https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay
