@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, sans-serif;
+}
+
+a {
+  font-size: 0.8rem;
+  color: #d2d2d2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #202020;
+}
+
+h1,
+h2,
+footer {
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
+header,
+nav {
+  display: flex;
+}
+
+nav {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem 2rem;
+}
+
+header nav {
+  z-index: 1;
+  position: fixed;
+  padding: 2rem;
+  color: #909090;
+}
+
+#work.bg {
+  background-image: url(resources/spacex_suit.jpg);
+}
+
+#launch.bg {
+  background-image: url(resources/spacex_launch.jpg);
+}
+
+#worlds.bg {
+  background-image: url(resources/spacey_planet2.png);
+}
+
+.bg {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+#burger {
+  margin-left: auto;
+}
+
+.bg div {
+  position: absolute;
+  top: 7em;
+  left: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.bg h1 {
+  font-size: 3em;
+}
+
+.bg a {
+  margin-top: 1.2rem;
+  display: inline-block;
+  max-width: 180px;
+  letter-spacing: 0.12em;
+  opacity: 0.8;
+  border: 2px solid;
+  padding: 1.2em;
+  padding-right: 3em;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+}
+
+footer span {
+  text-transform: none;
+}
